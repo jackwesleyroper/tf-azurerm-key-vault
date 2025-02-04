@@ -24,35 +24,35 @@ variable "tenant_id" {
 }
 
 variable "enabled_for_deployment" {
-    default = true
+  default = true
 }
 
 variable "enabled_for_disk_encryption" {
-    default = true
+  default = true
 }
 
 variable "enabled_for_template_deployment" {
-    default = true
+  default = true
 }
 
 variable "purge_protection_enabled" {
-    default = true
+  default = true
 }
 
 variable "soft_delete_retention_days" {
-    default = 90
+  default = 90
 }
 
 variable "public_network_access_enabled" {
-    default = false
+  default = false
 }
 
 variable "bypass" {
-    default = "AzureServices"
+  default = "AzureServices"
 }
 
 variable "default_action" {
-    default = "Deny"
+  default = "Deny"
 }
 
 variable "tags" {
